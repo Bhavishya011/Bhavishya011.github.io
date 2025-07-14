@@ -1,6 +1,6 @@
 # devfolio
 
-<a href="https://shubhporwal.me">
+<a href="https://github.com/Bhavishya011">
   <img alt="devfolio" src="./public/preview.png" />
 </a>
 
@@ -12,9 +12,9 @@
   <img src="https://img.shields.io/static/v1?label=%F0%9F%8C%9F&message=If%20Useful&style=style=flat&color=BC4E99" alt="Star Badge"/>
 </p>
 
-👨‍🎓 An eye-catching developer Portfolio, Built on NextJS, GSAP, Tailwind and React
+👨‍💻 An eye-catching developer Portfolio, Built on NextJS, GSAP, Tailwind and React
 
-### ✨ [Live Demo](http://www.shubhporwal.me/)
+### ✨ [Live Demo](https://github.com/Bhavishya011)
 
 ## Getting Started
 
@@ -39,4 +39,4 @@ Every time I learn that someone has duplicated my website without giving me cred
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=shubh73/devfolio&type=Date)](https://www.star-history.com/#shubh73/devfolio&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=Bhavishya011/devfolio&type=Date)](https://www.star-history.com/#Bhavishya011/devfolio&Date)

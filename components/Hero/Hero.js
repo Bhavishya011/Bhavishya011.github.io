@@ -8,10 +8,10 @@ import { MENULINKS, TYPED_STRINGS } from "../../constants";
 
 const options = {
   strings: TYPED_STRINGS,
-  typeSpeed: 50,
-  startDelay: 1500,
-  backSpeed: 50,
-  backDelay: 8000,
+  typeSpeed: 80, // faster typing
+  startDelay: 500, // shorter initial delay
+  backSpeed: 60, // faster backspacing
+  backDelay: 1200, // shorter delay before erasing
   loop: true,
 };
 
@@ -83,9 +83,9 @@ const Hero = () => {
         </h5>
         <h1 className={`${styles.heroName} text-white text-6xl font-semibold`}>
           <span className={`relative ${styles.emphasize} staggered-reveal`}>
-            Shubh
+            Bhavishya
           </span>
-          <span className="staggered-reveal"> Porwal</span>
+          <span className="staggered-reveal"> Jain</span>
         </h1>
         <p>
           <span

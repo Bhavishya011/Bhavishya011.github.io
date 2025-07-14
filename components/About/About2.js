@@ -13,9 +13,10 @@ const About2 = ({ clientHeight }) => {
           defaults: { ease: "none", duration: 0.1 },
         })
         .from(quoteRef.current, { opacity: 0, duration: 2 })
-        .to(quoteRef.current.querySelector(".about-3"), {
+        .to(quoteRef.current.querySelectorAll(".about-3"), {
           backgroundPositionX: "100%",
           duration: 1,
+          stagger: 0.1,
         });
 
       ScrollTrigger.create({
@@ -41,8 +42,7 @@ const About2 = ({ clientHeight }) => {
           ref={quoteRef}
           className="font-medium text-[2.70rem] md:text-6xl lg:text-[4rem] text-center"
         >
-          I have a{" "}
-          <span
+          Merging <span
             className="about-3 font-bold"
             style={{
               background:
@@ -51,10 +51,25 @@ const About2 = ({ clientHeight }) => {
               WebkitBackgroundClip: "text",
               WebkitTextFillColor: "transparent",
             }}
-          >
-            strong
-          </span>{" "}
-          obsession for attention to detail.
+          >logic</span>, <span
+            className="about-3 font-bold"
+            style={{
+              background:
+                "linear-gradient(90deg, #ffffff 0%, #ffffff 50%, #8b31ff 51%, #7000ff 102%)",
+              backgroundSize: "200% 100%",
+              WebkitBackgroundClip: "text",
+              WebkitTextFillColor: "transparent",
+            }}
+          >design</span>, and a dash of <span
+            className="about-3 font-bold"
+            style={{
+              background:
+                "linear-gradient(90deg, #ffffff 0%, #ffffff 50%, #8b31ff 51%, #7000ff 102%)",
+              backgroundSize: "200% 100%",
+              WebkitBackgroundClip: "text",
+              WebkitTextFillColor: "transparent",
+            }}
+          >ML</span> to build things that matter.
         </h1>
       </div>
     </section>

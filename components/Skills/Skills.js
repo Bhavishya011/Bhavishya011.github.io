@@ -109,18 +109,43 @@ const Skills = () => {
             </div>
             <div className="staggered-reveal">
               <h3 className="uppercase tracking-widest text-gray-light-2 font-medium text-base mb-4">
-                Other
+                Core Concepts
               </h3>
-              <div className="flex flex-wrap gap-6 transform-gpu">
-                {SKILLS.other.map((skill) => (
-                  <Image
-                    key={skill}
-                    src={`/skills/${skill}.svg`}
-                    alt={skill}
-                    width={50}
-                    height={50}
-                  />
-                ))}
+              <div className="flex flex-wrap gap-4 transform-gpu">
+                {SKILLS.other.map((concept) => {
+                  let label = concept;
+                  switch (concept) {
+                    case "systemdesign":
+                      label = "System Design";
+                      break;
+                    case "oop":
+                      label = "OOPS";
+                      break;
+                    case "dsa":
+                      label = "DSA";
+                      break;
+                    case "os":
+                      label = "OS";
+                      break;
+                    case "networks":
+                      label = "Computer Networks";
+                      break;
+                    case "dbms":
+                      label = "DBMS";
+                      break;
+                    case "datascience":
+                      label = "Data Science";
+                      break;
+                  }
+                  return (
+                    <span
+                      key={concept}
+                      className="bg-gray-dark-2 text-white px-4 py-2 rounded-lg text-base font-medium shadow"
+                    >
+                      {label}
+                    </span>
+                  );
+                })}
               </div>
             </div>
           </div>
