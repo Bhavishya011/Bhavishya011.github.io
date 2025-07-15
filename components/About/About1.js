@@ -56,7 +56,7 @@ const About1 = ({ clientHeight }) => {
           className="font-medium text-[2.70rem] md:text-6xl lg:text-[4rem] text-center"
         >
           <span className="about-1 leading-tight">
-          As a passionate Engineer, I build scalable full-stack applications, explore ML's intersection with web dev, and hone problem-solving through competitive programming.
+          As a passionate Engineer, I build scalable full-stack applications, explore ML&apos;s intersection with web dev, and hone problem-solving through competitive programming.
           </span>
         </h1>
       </div>
