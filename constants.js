@@ -74,8 +74,8 @@ export const SOCIAL_LINKS = [
 
 export const SKILLS = {
   languagesAndTools: [
-    "java",
-    "c",
+    "Java",
+    "C",
     "html",
     "tailwindcss",
     "javascript",
@@ -83,10 +83,10 @@ export const SKILLS = {
   ],
   librariesAndFrameworks: [
     "springboot",
-    "hibernate",
-    "junit",
-    "flask",
-    "tensorflow",
+    "Hibernate",
+    "JUnit",
+    "Flask",
+    "TensorFlow",
   ],
   webTechnologiesAndAPIs: [
     "restfulapis",

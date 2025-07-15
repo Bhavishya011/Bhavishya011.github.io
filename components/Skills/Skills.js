@@ -1,6 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
 import { useLayoutEffect, useRef } from "react";
-import Image from "next/image";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 import { MENULINKS, SKILLS } from "../../constants";
@@ -64,7 +63,7 @@ const Skills = () => {
             </h3>
             <div className="flex items-center flex-wrap gap-6 staggered-reveal">
               {SKILLS.languagesAndTools.map((skill) => (
-                <Image
+                <img
                   key={skill}
                   src={`/skills/${skill}.svg`}
                   alt={skill}
@@ -80,7 +79,7 @@ const Skills = () => {
             </h3>
             <div className="flex flex-wrap gap-6 transform-gpu staggered-reveal">
               {SKILLS.librariesAndFrameworks.map((skill) => (
-                <Image
+                <img
                   key={skill}
                   src={`/skills/${skill}.svg`}
                   alt={skill}
@@ -97,7 +96,7 @@ const Skills = () => {
               </h3>
               <div className="flex flex-wrap gap-6 transform-gpu">
                 {SKILLS.databases.map((skill) => (
-                  <Image
+                  <img
                     key={skill}
                     src={`/skills/${skill}.svg`}
                     alt={skill}

@@ -32,9 +32,9 @@ const Header = ({ children }) => {
     <nav className="w-full fixed top-0 py-8 z-50 select-none bg-gradient-to-b from-black shadow-black transition-all duration-300">
       <div className="flex justify-between section-container">
         <a href="#home" className="link">
-          <Image
+          <img
             src="/logo.svg"
-            alt="Logo - Shubh Porwal"
+            alt="Logo - Bhavishya Jain"
             width={25}
             height={25}
           />
