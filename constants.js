@@ -114,7 +114,7 @@ export const PROJECTS = [
     description: "AI-Powered Professional Message Generator",
     gradient: ["#F14658", "#DC2537"],
     url: "https://typewise-ai.netlify.app",
-    tech: ["react", "nextjs", "tailwindcss", "mapbox"],
+    tech: ["typescript", "nextjs", "tailwindcss", "html"],
   },
   {
     name: "Loan Approval Prediction",
@@ -123,16 +123,16 @@ export const PROJECTS = [
     description: "Predicting Loan Approval with Precision",
     gradient: ["#FFA62E", "#EA4D2C"],
     url: "https://loan-approval-prediction-huo2.onrender.com",
-    tech: ["typescript", "react", "nextjs", "tailwindcss", "sanity.io"],
+    tech: ["python", "jupyter", "scikit-learn", "tailwindcss", "javascript"],
   },
   {
     name: "Privacy-Preserving Techniques For Smart Cities",
     image: "/projects/inshorts.webp", // keep image for now
-    blurImage: "/projects/blur/airbnb-blur.webp",
+    blurImage: "/projects/blur/inshorts-blur.webp",
     description: "Securing Privacy in Smart Cities",
     gradient: ["#000066", "#6699FF"],
     url: "https://github.com/Bhavishya011/Privacy-preserving-iot-smart-city",
-    tech: ["react", "chakra-ui", "alan"],
+    tech: ["python", "flask", "anaconda", "javascript"],
   },
   {
     name: "Hotel Reservation System",
@@ -141,7 +141,7 @@ export const PROJECTS = [
     description: "Java-powered hotel management with robust MySQL integration.",
     gradient: ["#142D46", "#2E4964"],
     url: "https://github.com/Bhavishya011/Hotel-Reservation-System",
-    tech: ["react"],
+    tech: ["java", "mysql", "IntelliJ IDEA", "GitHub"],
   },
 ];
 

@@ -100,6 +100,15 @@ const Hero = () => {
           <Button href={`#${MENULINKS[4].ref}`} classes="link" type="primary">
             Let&apos;s Talk
           </Button>
+          <Button
+            href="https://www.dropbox.com/scl/fi/lxvpgolfa7ea64jdqcch5/Bhavishya_Resume.pdf?rlkey=zy2oxje71op1tdkn9v8dsptuv&e=1&st=ltbhexnh&dl=0"
+            classes="link ml-4"
+            type="primary"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Resume
+          </Button>
         </div>
       </div>
       <div
