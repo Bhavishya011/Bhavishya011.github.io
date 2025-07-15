@@ -141,7 +141,7 @@ export const PROJECTS = [
     description: "Java-powered hotel management with robust MySQL integration.",
     gradient: ["#142D46", "#2E4964"],
     url: "https://github.com/Bhavishya011/Hotel-Reservation-System",
-    tech: ["java", "mysql", "IntelliJ IDEA", "GitHub"],
+    tech: ["Java", "mysql", "IntelliJ IDEA", "GitHub"],
   },
 ];
 
