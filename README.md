@@ -1,9 +1,5 @@
 # devfolio
 
-<a href="https://github.com/Bhavishya011">
-  <img alt="devfolio" src="./public/preview.png" />
-</a>
-
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
   <a href="#" target="_blank">
